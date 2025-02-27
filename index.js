@@ -1,21 +1,3 @@
-/*function Traduzir(){
-
-    var x = document.getElementById("p");
-
-    x.innerHTML = "Hello";
-
-
-
-}
-
-var num1 = Number.parseInt(prompt("Digite um numero."));
-
-var num2 = Number.parseInt(prompt("Digite um segundo numero."));
-
-var resultado = num1 + num2;
-
-window.alert("A soma de " + num1 + " e " + num2 + " é igual à " + resultado);*/
-
 function opcaoSelecionada(val) {
     if (val === "soma") {
         Soma();
