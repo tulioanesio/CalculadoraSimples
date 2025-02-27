@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudos JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <input type="number" id="numero1" placeholder="Digite um número">
+        
+        <select id="operação" onchange="opcaoSelecionada(this.value)">
+            <option value="soma">Soma</option>
+            <option value="subtração">Subtração</option>
+            <option value="multiplicação">Multiplicação</option>
+            <option value="divisão">Divisão</option>
+        </select>
+    
+        <input type="number" id="numero2" placeholder="Digite outro número">
+    
+        <button type="button" onclick="opcaoSelecionada(document.getElementById('operação').value)">Calcular</button>
+    
+        <p id="resposta"></p>
+    
+    <script src="index.js"></script>
+</body>
+</html>
